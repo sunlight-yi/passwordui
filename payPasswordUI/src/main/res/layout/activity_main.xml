@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    tools:context="com.testpaypasswordui.MainActivity">
+    <!--静态设置-->
+    <com.paybaseui.PayPasswordBoxView xmlns:ppbv="http://schemas.android.com/apk/res/com.testpaypasswordui"
+        android:id="@+id/ppbv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ppbv:aboutSpacing="15"
+        ppbv:wh="120"
+        ppbv:isPossword="true"
+        ppbv:keyboardViewId="@+id/keyboard_view"
+        ppbv:panel="@xml/numbers_keyboard"
+        ppbv:quantity="3"
+        ppbv:sonBackground="@drawable/login_button_style"
+        />
+
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ppbv"
+        android:layout_marginTop="30dp"
+        android:text="确认"
+        android:textSize="25sp" />
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/custom_soft_key_bg"
+        android:keyTextColor="#f56"
+        android:keyTextSize="24sp" />
+
+
+</RelativeLayout>

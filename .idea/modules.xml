@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestPayPasswordUI.iml" filepath="$PROJECT_DIR$/TestPayPasswordUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payPasswordUI/payPasswordUI.iml" filepath="$PROJECT_DIR$/payPasswordUI/payPasswordUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paybaseui/paybaseui.iml" filepath="$PROJECT_DIR$/paybaseui/paybaseui.iml" />
+    </modules>
+  </component>
+</project>
