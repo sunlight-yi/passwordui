@@ -7,7 +7,7 @@
         <attr name="wh" format="integer"/><!--子View的宽高-->
         <attr name="sonBackground" format="reference"/><!--子View的背景-->
         <attr name="isPossword" format="boolean"/><!--是否密文显示-->
-        <attr name="panel" format="reference"/><!--显示的键盘面板-->
+        <attr name="panel" format="reference"/><!--显示的面板-->
         <attr name="keyboardViewId" format="string"/><!--绑定的键盘ViewId-->
     </declare-styleable>
 </resources>
